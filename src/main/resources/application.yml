@@ -1,0 +1,6 @@
+spring:
+  datasource:
+    url: jdbc:mysql://192.168.3.38:8066/TESTDB #Mycat服务的ip+Mycat服务的端口/TESTDB(schema.xml中定义的schema name)
+    username: root #Mycat服务默认账号
+    password: 123456 #Mycat服务默认密码
+    driver-class-name: com.mysql.cj.jdbc.Driver
